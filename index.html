@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Tic Tac Toe - HTML,CSS,JS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/tic-tac.css">
+
+</head>
+
+<body>
+  <div class="tic-tac-board">
+    <input type="button" class="btn" id="new-game" value="New Game" />
+    <ul>
+      <li class="square"></li>
+      <li class="square"></li>
+      <li class="square"></li>
+
+      <li class="square"></li>
+      <li class="square"></li>
+      <li class="square"></li>
+
+      <li class="square"></li>
+      <li class="square"></li>
+      <li class="square"></li>
+    </ul>
+    <div class="score-details">
+      <div class="header">
+        Scores
+      </div>
+      <div class="content">
+        <div>
+          <b>Player X :</b> <span class="player-X-score">0</span>
+        </div>
+        <div>
+          <b> Player O :</b> <span class="player-O-score">0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="scripts/vendor/jquery-1.11.3.js"></script>
+  <script type="text/javascript" src="scripts/tic-tac.js"></script>
+</body>

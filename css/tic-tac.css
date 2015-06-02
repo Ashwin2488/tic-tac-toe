@@ -1,0 +1,89 @@
+body {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.tic-tac-board {
+  margin: 0 auto;
+  width: 420px;
+}
+
+.tic-tac-board ul {
+  margin: 0;
+  padding: 0;
+}
+
+.tic-tac-board ul li {
+  float: left;
+  height: 130px;
+  width: 130px;
+  list-style: none;
+  background-color: #bdc3c7;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+li.square.player-X,
+li.square.player-O {
+  font-size: 65px;
+  line-height: 130px;
+  color: #fff;
+}
+
+li.square.player-X {
+  background-color: #e74c3c;
+}
+
+li.square.player-O {
+  background-color: #f39c12;
+}
+
+li.square.player-X:after {
+  content: "X";
+}
+
+li.square.player-O:after {
+  content: "O";
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #2ecc71;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.score-details {
+  clear: both;
+  overflow: auto;
+  border: 1px solid #D8CFCF;
+}
+
+.score-details .header {
+  padding: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #16a085;
+}
+
+.score-details .content {
+  padding: 15px 5px 15px 5px;
+  margin-bottom: 15px;
+}
+
+.score-details .content div {
+  width: 50%;
+  float: left;
+}
+
+.score-details .content div:last-child {
+  text-align: right;
+}
